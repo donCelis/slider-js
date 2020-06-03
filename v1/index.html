@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript Image Slider - V1</title>
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="container">
+    <div class="slide">
+      <img class="last" src="img/photo5.jpg" alt="">
+      <img src="img/photo1.jpg" alt="">
+      <img src="img/photo2.jpg" alt="">
+      <img src="img/photo3.jpg" alt="">
+      <img src="img/photo4.jpg" alt="">
+      <img src="img/photo5.jpg" alt="">
+      <img class="first" src="img/photo1.jpg" alt="">
+    </div>
+    <div class="content">
+      <div class="arrows">
+        <button class="prev fas fa-chevron-left"></button>
+        <button class="next fas fa-chevron-right"></button>
+      </div>
+      <ul class="corners">
+        <li data-index="0" class="option"></li>
+        <li data-index="1" class="option"></li>
+        <li data-index="2" class="option"></li>
+        <li data-index="3" class="option"></li>
+        <li data-index="4" class="option"></li>
+      </ul>
+    </div>
+  </section>
+  <script src="js/code.min.js"></script>
+</body>
+</html>
