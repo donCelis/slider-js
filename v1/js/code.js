@@ -65,8 +65,8 @@ slide.addEventListener('transitionend', (e) => {
 })
 
 //Código para mover las fotos con los puntos
-let optionFunc = function () {
-  let i = Number(this.dataset.index)
+let optionFunc = function (e) {
+  let i = Number(e.target.dataset.index)
   opIndex = i
   counter = i + 1
   slider()
